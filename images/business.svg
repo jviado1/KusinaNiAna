@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.62 93.76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer_1">
+    <g>
+      <rect class="cls-1" x="11.45" y="17.34" width="9.37" height="4"/>
+      <rect class="cls-1" x="11.45" y="31.1" width="9.37" height="4"/>
+      <rect class="cls-1" x="11.45" y="44.85" width="9.37" height="4"/>
+      <rect class="cls-1" x="36.63" y="17.34" width="9.37" height="4"/>
+      <rect class="cls-1" x="36.63" y="31.1" width="9.37" height="4"/>
+      <rect class="cls-1" x="36.63" y="44.85" width="9.37" height="4"/>
+      <rect class="cls-1" x="11.45" y="58.61" width="9.37" height="4"/>
+      <rect class="cls-1" x="73.58" y="40.47" width="9.37" height="4"/>
+      <rect class="cls-1" x="73.58" y="54.22" width="9.37" height="4"/>
+      <rect class="cls-1" x="73.58" y="67.98" width="9.37" height="4"/>
+      <rect class="cls-1" x="36.63" y="58.61" width="9.37" height="4"/>
+      <path class="cls-1" d="M56,93.76H2c-1.1,0-2-.9-2-2V2C0,.9.9,0,2,0h54c1.1,0,2,.9,2,2v89.76c0,1.1-.9,2-2,2ZM4,89.76h50V4H4v85.76Z"/>
+      <path class="cls-1" d="M95.62,93.76h-34v-4h32v-57.22h-32v-4h34c1.1,0,2,.9,2,2v61.22c0,1.1-.9,2-2,2Z"/>
+      <path class="cls-1" d="M36.63,93.76h-15.27c-1.1,0-2-.9-2-2v-19.09c0-1.1.9-2,2-2h15.27c1.1,0,2,.9,2,2v19.09c0,1.1-.9,2-2,2ZM23.37,89.76h11.27v-15.09h-11.27v15.09Z"/>
+    </g>
+  </g>
+</svg>
