@@ -50,18 +50,23 @@ table {
 
 
 /* Beginning of my code below.*/
+/* GLOBAL STYLE FOR MOBILE-FIRST DESIGN */
 main {
-    background-color:blanchedalmond;
+    background-image: url("images/beige.jpeg");
     color: #343131;
 }
 section h2 {
     font-family: "Cormorant Garamond", system-ui;
     font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
 }
-h1 , .logo{
-    font-family: "Rye", serif;
+h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2.5rem;
 }
 .logo {
+    font-family: "Rye", serif;
     position: absolute;
     right: 0;
     text-decoration: none;
@@ -76,7 +81,7 @@ body {
 }
 #hero-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/kare.jpeg");
-    height: 40vh;
+    height: 35vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,16 +100,20 @@ body {
     padding-left: 3vw;
     font-size: 30px;
 }
-#contact-button {
+#contact-button, #service-button {
     background-color: #A04747;
     color: #EEDF7A;
     border-radius: 50px;
     border: none;
     padding: 10px 20px;
 }
-section {
-    padding: 20px;
+
+#contact-button:hover, #service-button:hover {
+    background-color: #EEDF7A;
+    color: #A04747;
+    transition: 0.5s;
 }
+
 #about-contents {
     display: flex;
     flex-direction: column;
@@ -112,6 +121,7 @@ section {
 }
 #socials {
     display: block;
+    padding: 50px 0;
 }
 .navbar {
     background-color: #A04747;
@@ -127,16 +137,16 @@ button.navbar-toggler {
     font-family: "DM Sans", system-ui;
 }
 #about img {
-    width: 40vw;
+    width: 350px;
     border-radius: 50%;
     float: left;
     margin: 30px;
+    padding: 20px;
 }
 #about p {
     text-align: center;
-    background-color: #D8A25E;
-    padding: 40px;
-    border-radius: 30px;
+    padding: 20px;
+    width: 350px;
 }
 #social-icons i {
     font-size: 40px;
@@ -148,6 +158,10 @@ button.navbar-toggler {
     gap: 20px;
     padding: 30px;
 }
+#social-icons i:hover {
+    color: #343131;
+    transition: 0.5s;
+}
 footer {
     background-color: #A04747;
     text-align: center;
@@ -156,6 +170,17 @@ footer {
     font-family: "DM Sans", system-ui;
 }
 /* Contacts Page styles */
+#contact-heading{
+    padding: 30px;
+    background-image: url("images/beige.jpeg");
+}
+#contact-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 4px solid #A04747;
+    border-bottom: 4px solid #A04747;
+}
 #telephone {
     width: 200px;
 }
@@ -166,47 +191,68 @@ span {
     text-decoration: underline;
 }
 form {
-    border: 4px solid #A04747;
+    border: 4px solid #D8A25E;
     border-radius: 30px;
     padding: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #D8A25E;
+    align-items:center;
+    background-color: #A04747;
+    color: blanchedalmond;
+    margin-bottom: 80px;
 }
 form button {
     border: none;
+    margin: 10px;
     padding: 10px;
-    background-color: #A04747;
-    color: #EEDF7A;
+    background-color: #D8A25E;
+    color: #343131;
     border-radius: 20px;
 }
-/* Menu page styles */
-#actual-menu {
-    background-color: #343131;
-}
-button.accordion-button {
-    color: #D8A25E;
-    background-color: #343131;
-}
-.accordion-button {
-	--bs-accordion-active-color: #EEDF7A;
-	--bs-accordion-active-bg: #A04747;
-}
-.accordion {
-    width: 80vw;
-    margin: auto;
-}
-div.accordion-item {
+form button:hover {
     background-color: #EEDF7A;
     color: #343131;
-    border: none;
+    transform: 0.5;
+}
+form input {
+    margin-bottom: 10px;
+    
+}
+/* Menu page styles */
+h2.accordion-header {
+    padding: 0;
+}
+#actual-menu h1 {
+    text-align: center;
+    padding: 60px 0 30px 0;
+}
+#actual-menu p {
+    text-align: center;
+    padding: 10px;
+}
+button.accordion-button {
+    color: blanchedalmond;
+    background-color: #A04747;
+}
+.accordion-button {
+	--bs-accordion-active-color: #343131;
+	--bs-accordion-active-bg: #D8A25E;
+}
+.accordion {
+    width: 70vw;
+    margin: auto;
+    box-shadow: 5px 5px 5px #343131;
+}
+div.accordion-item {
+    background-color: #343131;
+    color: blanchedalmond;
+    /* border: none; */
 }
 
 .carousel-item img {
     object-fit: cover;
     object-position: center;
-    height: 50vh;
+    height: 35vh;
     overflow: hidden;
 }
 
@@ -225,37 +271,46 @@ div.accordion-item {
 .accordion ul {
     padding: 0;
 }
-
-
-  
+ 
 .accordion-header button {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 
 menu li {
-    padding-top: 10px;
     list-style: none;
+    padding: 20px 50px;
 }
-menu h3, menu p {
+menu p {
     font-size: 1rem;
 }
+menu h3 {
+    font-size: 1.3rem;
+}
+
 /* Services page */
+#services h1 {
+    font-family: "DM Sans", serif;
+}
+#services h2 {
+    padding: 50px;
+    font-family: "Cormorant Garamond", system-ui;
+}
 #service-places {   
     display: flex;
-    align-items: baseline;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
-.hero-image{
+#service-hero-img{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/catering.jpeg");
-    height: 50vh;
+    height: 35vh;
     
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
-.hero-text {
+#service-hero-text {
     color: blanchedalmond;
     text-align: center;
     position: absolute;
@@ -265,7 +320,8 @@ menu h3, menu p {
 }
 .service-column {
     text-align: center;
-    width: 20vw;
+    width: 50vw;
+    padding-bottom: 40px;
 }
 .service-column img {
     height: 80px;
