@@ -51,8 +51,8 @@ table {
 
 /* Beginning of my code below.*/
 main {
-    background-color:#EAE7B1;
-    color: #3C6255;
+    background-color:blanchedalmond;
+    color: #343131;
 }
 section h2 {
     font-family: "Cormorant Garamond", system-ui;
@@ -89,15 +89,15 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #EEDF7A;
 }
 .navbar .navbar-brand {
     padding-left: 3vw;
     font-size: 30px;
 }
 #contact-button {
-    background-color: #3C6255;
-    color: #EAE7B1;
+    background-color: #A04747;
+    color: #EEDF7A;
     border-radius: 50px;
     border: none;
     padding: 10px 20px;
@@ -114,38 +114,33 @@ section {
     display: block;
 }
 .navbar {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/leaves.jpeg);
+    background-color: #A04747;
 }
 button.navbar-toggler {
-    background-color: #3C6255;
-}
-.navbar-toggler {
-    border: #EAE7B1;
+    background-color: #EEDF7A;
 }
 .navbar .navbar-brand{
     font-family: "Rye", system-ui;
 }
 .navbar a {
-    color: #EAE7B1;
+    color: #EEDF7A;
     font-family: "DM Sans", system-ui;
 }
 #about img {
-    border: solid 2px #3C6255;
-    border-radius: 100px;
-    width: 200px;
+    width: 40vw;
+    border-radius: 50%;
     float: left;
     margin: 30px;
 }
-#about {
-    background-color: #61876E;
-    color: #EAE7B1;
-}
 #about p {
-    text-align: justify;
+    text-align: center;
+    background-color: #D8A25E;
+    padding: 40px;
+    border-radius: 30px;
 }
 #social-icons i {
     font-size: 40px;
-    color: #3C6255;
+    color: #A04747;
 }
 #social-icons {
     display: flex;
@@ -154,46 +149,58 @@ button.navbar-toggler {
     padding: 30px;
 }
 footer {
-    background-color: #3C6255;
+    background-color: #A04747;
     text-align: center;
     padding: 20px;
-    color: #EAE7B1;
+    color: #EEDF7A;
     font-family: "DM Sans", system-ui;
 }
 /* Contacts Page styles */
 #telephone {
     width: 200px;
 }
+#contact-us {
+    background-color: #f1e18c;
+}
 span {
     text-decoration: underline;
 }
 form {
-    border: 4px solid #3C6255;
+    border: 4px solid #A04747;
     border-radius: 30px;
     padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #D8A25E;
 }
 form button {
     border: none;
     padding: 10px;
-    background-color: #3C6255;
-    color: #EAE7B1;
-    border-radius: 30px;
+    background-color: #A04747;
+    color: #EEDF7A;
+    border-radius: 20px;
 }
 /* Menu page styles */
+#actual-menu {
+    background-color: #343131;
+}
+button.accordion-button {
+    color: #D8A25E;
+    background-color: #343131;
+}
+.accordion-button {
+	--bs-accordion-active-color: #EEDF7A;
+	--bs-accordion-active-bg: #A04747;
+}
 .accordion {
     width: 80vw;
     margin: auto;
 }
 div.accordion-item {
-    background-color: #FFE5CF;
-    color: #33372C;
-}
-div.accordion-item:nth-of-type(odd) {
-    background-color: #3C6255;
-    color: #FFE5CF;
+    background-color: #EEDF7A;
+    color: #343131;
+    border: none;
 }
 
 .carousel-item img {
@@ -215,15 +222,11 @@ div.accordion-item:nth-of-type(odd) {
     align-items: center;
     text-align: center;
 }
+.accordion ul {
+    padding: 0;
+}
 
-button.accordion-button {
-    color: #EAE7B1;
-    background-color: #61876E;
-}
-.accordion-button {
-	--bs-accordion-active-color: #33372C;
-	--bs-accordion-active-bg: orange;
-}
+
   
 .accordion-header button {
     font-size: 20px;
@@ -238,8 +241,36 @@ menu h3, menu p {
     font-size: 1rem;
 }
 /* Services page */
-#services-hero {
-    width: 100%;
-    height: 30%;
-    margin: auto;
+#service-places {   
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/catering.jpeg");
+    height: 50vh;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    color: blanchedalmond;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+.service-column {
+    text-align: center;
+    width: 20vw;
+}
+.service-column img {
+    height: 80px;
+}
+.service-column ul {
+    list-style: inside;
+    text-align: left;
 }
