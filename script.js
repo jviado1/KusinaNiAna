@@ -12,8 +12,8 @@ form.addEventListener("submit", function(event) {
     message.style.display = "block";
     message.innerText = `Thank you, ${formattedFirstName}! We will contact you shortly🫶`;
 })
-let button = document.getElementById("contact-button");
+
 // This was a simple function for the contact buttons seen on the Home and Services page. When clicked, it takes you to the contact page.
-button.addEventListener("click", function () {
+function directToContactPage() {
     location.href = "./contacts.html";
-});
+}
