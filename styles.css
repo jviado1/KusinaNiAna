@@ -216,7 +216,7 @@ address a{
 form {
     border: 4px solid #D8A25E;
     border-radius: 30px;
-    padding: 30px;
+    padding: 30px 10px;
     display: flex;
     flex-direction: column;
     align-items:center;
