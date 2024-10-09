@@ -100,6 +100,10 @@ body {
     padding-left: 3vw;
     font-size: 30px;
 }
+.navbar {
+    max-width: 1280px;
+    margin: auto;
+}
 #contact-button, #service-button {
     background-color: #A04747;
     color: #EEDF7A;
@@ -178,7 +182,9 @@ footer {
 }
 /* Contacts Page styles */
 #contact-heading{
-    padding: 30px;
+    padding: 150px;
+    padding-left: 50px;
+    padding-bottom: 50px;
     background-image: url("images/beige.jpeg");
 }
 #contact-contents {
@@ -210,7 +216,7 @@ form {
 }
 form button {
     border: none;
-    margin: 10px;
+    margin-top: 20px;
     padding: 10px;
     background-color: #D8A25E;
     color: #343131;
@@ -219,7 +225,7 @@ form button {
 form button:hover {
     background-color: #EEDF7A;
     color: #343131;
-    transform: 0.5;
+    transition: 0.5s;
 }
 form input {
     margin-bottom: 10px;
@@ -307,11 +313,25 @@ menu h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
+.service-column {
+    padding: 15px;
+}
+.service-column h3 {
+    padding: 10px 0;
+    color: #A04747;
+}
+.service-column ul {
+    display: inline-block;
+    text-align: left;
+    
+}
+
 #service-hero-img{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/catering.jpeg");
     height: 35vh;
-    
+    margin-top: 70px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -366,6 +386,10 @@ menu h3 {
     /* menu page */
     .accordion {
         max-width: 768px;
+    }
+    /* services page */
+    #service-places {
+        flex-direction: row;
     }
     
 }
