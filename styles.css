@@ -223,13 +223,22 @@ form button {
     border-radius: 20px;
 }
 form button:hover {
-    background-color: #EEDF7A;
-    color: #343131;
+    background-color: #343131;
+    color: #D8A25E;
     transition: 0.5s;
 }
 form input {
     margin-bottom: 10px;
     
+}
+#thank-you {
+    background-color:#A04747 ;
+    padding: 10px;
+    border: #D8A25E 4px solid;
+    display: none;
+    color: blanchedalmond;
+    border-radius: 15px;
+    margin-bottom: 30px;
 }
 /* Menu page styles */
 h2.accordion-header {
