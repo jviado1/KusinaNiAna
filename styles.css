@@ -389,12 +389,12 @@ menu h3 {
         width: 400px;
     }
     #about {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
     #about h2 {
-        padding-bottom: 60px;
-        font-size: 70px;
+        padding-bottom: 30px;
+        font-size: 60px;
     }
     /* menu page */
     .accordion {
