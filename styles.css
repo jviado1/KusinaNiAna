@@ -119,6 +119,9 @@ body {
     flex-direction: column;
     align-items: center;
 }
+#socials-header {
+    display: none;
+}
 #socials {
     display: block;
     padding: 50px 0;
@@ -187,8 +190,8 @@ footer {
 #contact-us {
     background-color: #f1e18c;
 }
-span {
-    text-decoration: underline;
+address a{
+    color: #A04747;
 }
 form {
     border: 4px solid #D8A25E;
