@@ -76,7 +76,6 @@ h1 {
 }
 body {
     font-family: "DM Sans", system-ui;
-    
     color: black;
 }
 #hero-img {
@@ -113,6 +112,7 @@ body {
 .navbar {
     max-width: 1280px;
     margin: auto;
+    box-shadow:5px 5px 5px #343131;
 }
 #contact-button, #service-button {
     background-color: #A04747;
