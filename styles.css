@@ -139,12 +139,12 @@ button.navbar-toggler {
     color: #EEDF7A;
     font-family: "DM Sans", system-ui;
 }
-#about img {
+#chef {
     width: 350px;
     border-radius: 50%;
     float: left;
     margin: 30px;
-    padding: 20px;
+    border: #A04747 4px solid;
 }
 #about p {
     text-align: center;
@@ -154,6 +154,10 @@ button.navbar-toggler {
 #social-icons i {
     font-size: 40px;
     color: #A04747;
+}
+#about-text {
+    text-align: center;
+    padding-top: 50px;
 }
 #social-icons {
     display: flex;
@@ -332,4 +336,28 @@ menu h3 {
 .service-column ul {
     list-style: inside;
     text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+    /* about page */
+    #about-contents {
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 100px;
+        gap: 50px;
+        
+    }
+    #chef {
+        width: 500px;
+    }
+    #about {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #about h2 {
+        padding-bottom: 60px;
+        font-size: 70px;
+    }
+    /* menu page */
+    
 }
