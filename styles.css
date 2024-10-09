@@ -100,6 +100,10 @@ body {
     padding-left: 3vw;
     font-size: 30px;
 }
+.navbar .navbar-brand:hover {
+    transition: 0.5s;
+    color: #343131;
+}
 .navbar {
     max-width: 1280px;
     margin: auto;
@@ -377,12 +381,12 @@ menu h3 {
     #about-contents {
         flex-direction: row;
         justify-content: center;
-        padding-left: 100px;
+        
         gap: 50px;
         
     }
     #chef {
-        width: 500px;
+        width: 400px;
     }
     #about {
         padding-top: 100px;
